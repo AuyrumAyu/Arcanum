@@ -1,6 +1,24 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "arcanum:item/ruin_scepter"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "DND",
+    " I ",
+    " I "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:nether_star"
+    },
+    "I": {
+      "item": "arcanum:arcane_ingot"
+    }
+  },
+  "result": {
+    "item": "arcanum:ruin_scepter",
+    "count": 1
   }
 }

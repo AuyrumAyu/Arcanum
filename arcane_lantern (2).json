@@ -1,6 +1,21 @@
 {
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "arcanum:block/arcane_lantern"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    " C ",
+    "CTC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "arcanum:mana_crystal"
+    },
+    "T": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "arcanum:arcane_lantern",
+    "count": 1
   }
 }

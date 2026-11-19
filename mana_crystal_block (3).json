@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "arcanum:mana_crystal"
+    }
+  },
+  "result": {
+    "item": "arcanum:mana_crystal_block",
+    "count": 1
+  }
+}

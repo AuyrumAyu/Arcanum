@@ -1,6 +1,27 @@
 {
-  "parent": "minecraft:item/handheld",
-  "textures": {
-    "layer0": "arcanum:item/blink_staff"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " CX",
+    " IC",
+    "S  "
+  ],
+  "key": {
+    "C": {
+      "item": "arcanum:mana_crystal"
+    },
+    "X": {
+      "item": "minecraft:ender_pearl"
+    },
+    "I": {
+      "item": "arcanum:arcane_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "arcanum:blink_staff",
+    "count": 1
   }
 }

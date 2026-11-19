@@ -1,6 +1,18 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "arcanum:item/arcane_leggings"
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "III",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "arcanum:arcane_ingot"
+    }
+  },
+  "result": {
+    "item": "arcanum:arcane_leggings",
+    "count": 1
   }
 }

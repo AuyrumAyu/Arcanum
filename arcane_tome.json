@@ -1,6 +1,16 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "arcanum:item/arcane_tome"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "arcanum:mana_crystal"
+    }
+  ],
+  "result": {
+    "item": "arcanum:arcane_tome",
+    "count": 1
   }
 }

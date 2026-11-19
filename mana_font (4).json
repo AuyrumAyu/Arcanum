@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "CBC",
+    " I ",
+    "SSS"
+  ],
+  "key": {
+    "C": {
+      "item": "arcanum:mana_crystal"
+    },
+    "B": {
+      "item": "arcanum:mana_crystal_block"
+    },
+    "I": {
+      "item": "arcanum:arcane_ingot"
+    },
+    "S": {
+      "item": "arcanum:arcane_bricks"
+    }
+  },
+  "result": {
+    "item": "arcanum:mana_font",
+    "count": 1
+  }
+}

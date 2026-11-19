@@ -1,6 +1,19 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "arcanum:item/arcane_ingot"
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "arcanum:mana_crystal"
+    },
+    {
+      "item": "arcanum:mana_crystal"
+    }
+  ],
+  "result": {
+    "item": "arcanum:arcane_ingot",
+    "count": 1
   }
 }

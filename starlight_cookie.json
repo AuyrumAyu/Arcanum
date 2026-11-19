@@ -1,6 +1,19 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "arcanum:item/starlight_cookie"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WCW"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:wheat"
+    },
+    "C": {
+      "item": "arcanum:mana_crystal"
+    }
+  },
+  "result": {
+    "item": "arcanum:starlight_cookie",
+    "count": 4
   }
 }

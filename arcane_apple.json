@@ -1,6 +1,21 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "arcanum:item/arcane_apple"
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    "CAC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "arcanum:mana_crystal"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "arcanum:arcane_apple",
+    "count": 1
   }
 }
